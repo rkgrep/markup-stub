@@ -35,6 +35,9 @@ elixir(function(mix) {
         //mix.copy('node_modules/alameda/alameda.js', 'public/js/require.js');
     }
 
+    // Альтернатива - собрать все файлы из bower в файл vendor.js
+    mix.scripts(bower('**/*.js'), 'public/js/vendor.js', '/');
+
     // Основной файл с кодом - компилится в all.js по умолчанию
     mix.scripts(['app-js.js']);
 

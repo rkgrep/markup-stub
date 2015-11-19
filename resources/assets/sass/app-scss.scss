@@ -1,0 +1,15 @@
+// Переопределние переменных
+@import "variables";
+@import "mixins";
+
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Загрузка pure.css
+// @import "../../../node_modules/purecss-sass/vendor/assets/stylesheets/purecss/base";
+// @import "../../../node_modules/purecss-sass/vendor/assets/stylesheets/purecss/grids";
+// @import "../../../node_modules/purecss-sass/vendor/assets/stylesheets/purecss/grids-responsive";
+
+@import "../../../bower_components/font-awesome/scss/font-awesome";
+
+// Импорт CSS тоже поддерживается
+// @import "../../../bower_components/animate.css/animate"

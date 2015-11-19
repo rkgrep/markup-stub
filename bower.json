@@ -1,0 +1,25 @@
+{
+  "name": "project-name",
+  "description": "Project Description",
+  "main": "",
+  "authors": [
+    "Roman Kinyakin <1@grep.su>"
+  ],
+  "license": "proprietary",
+  "moduleType": [],
+  "homepage": "https://localhost",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "font-awesome": "~4.4.0",
+    "animate.css": "~3.4.0",
+    "jquery.maskedinput": "~1.4.1"
+  }
+}

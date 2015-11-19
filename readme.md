@@ -93,5 +93,4 @@ shim:
 # TODO
 
 * Компиляторы Twig и Blade.
-* Использование Elixir Build.
 * Инструкция для MacOS.

@@ -52,4 +52,10 @@ elixir(function(mix) {
 
     // Темы jQuery UI
     // mix.copy('bower_components/jquery-ui/themes/smoothness/images/**.*', 'public/css/images');
+
+    // Версионирование Elixir - для каждого билда к файлам добавляется уникальный суффикс.
+    // Позволяет избежать проблем с локальным кэшем в браузерах.
+    // mix.version(['js/app-js.js', 'js/config.js', 'js/require.js']);
+    // mix.version(['app-scss.css', 'app-less.css', 'app-stylus.css']);
+
 });
